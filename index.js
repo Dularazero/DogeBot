@@ -1615,9 +1615,9 @@ ${readmore}
 𝗡𝗼𝘁𝗲 : Horny = Bonks💥
 Just Learn to Make Bots 🐶
  
-𝘼𝙈 𝙉𝙊𝙏 𝘼 𝙋𝙍𝙊𝙂𝙍𝘼𝙈𝙈𝙀𝙍 𝘽𝙍𝙊
+𝗛𝗔𝗖𝗞 𝗧𝗛𝗘 𝗥𝗜𝗖𝗛 𝗙𝗘𝗘𝗗 𝗧𝗛𝗘 𝗣𝗢𝗢𝗥 🇱🇰
 `
-sendButLocation(from, `${menu}`,`𝘽𝙤𝙩 𝘽𝙮 @${dtod.split("@")[0]}`, {jpegThumbnail:iye}, [{buttonId:`command`,buttonText:{displayText:'LIST MENU'},type:1},{buttonId:`credit`,buttonText:{displayText:'THANKS TO'},type:1},{buttonId:`script`,buttonText:{displayText:'SCRIPT'},type:1}], {contextInfo: { mentionedJid: [ptod,stod]}})
+sendButLocation(from, `${menu}`,`𝐁𝐎𝐓 𝐁𝐘 @𝙈𝙋𝙈𝙎𝙏𝙐𝘿𝙄𝙊`, {jpegThumbnail:iye}, [{buttonId:`command`,buttonText:{displayText:'LIST MENU'},type:1},{buttonId:`credit`,buttonText:{displayText:'THANKS TO'},type:1},{buttonId:`script`,buttonText:{displayText:'TELEGRAM'},type:1}], {contextInfo: { mentionedJid: [ptod,stod]}})
 
 break
 case 'credit':
@@ -1771,22 +1771,12 @@ reply(`${mek.quoted.caption}`)
 break
 case 'iggw':
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-  reply('*click on the link below*\nwa.me/916909137213')
+  reply('*click on the link below*\nwa.me/13175480626')
 break
    
 case 'owner':
            case 'creator':
-             
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-               sendKontak(from, `${owner}`, `${fakeyoi}`, 'Busy!!')
-               await sleep(1000)
-               haibg =`Hi ${pushname}\nThats my owner, What do you want to know about??`
-               buttons = [{buttonId: `mygithub`,buttonText:{displayText: 'SC BOT'},type:1},{buttonId:`iggw`,buttonText:{displayText:'PM ON WHATSAPP'},type:1}]
-               buttonsMessage = { contentText: `${haibg}`, footerText: `Created By ${fakeyoi} 🌿`, buttons: buttons, headerType: 1 }
-               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{})
-               xeon.relayWAMessage(prep)
-               break     
-            
+                        
 case 'f':
 case 'lock':
  ikymemek = {
@@ -2443,7 +2433,7 @@ case 'triggered':
 case 'script':
 		case 'sc':
 		case 'sourcecode':
-		xeon.sendMessage(from, { text: "https://github.com/DGXeon/DogeBot", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
+		xeon.sendMessage(from, { text: "https://https://t.me/whatsappgang", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
 		break
       //------------------< Sticker Cmd >-------------------
       case "addcmd":
