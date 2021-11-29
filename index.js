@@ -139,9 +139,9 @@ nopref = true
 numbernye = '0'
 autoketik = false;
 prefixStatus = false;
-targetpc = "916909137213"; 
-owner = "916909137213"; 
-fakeyoi = "Xeon"; 
+targetpc = "13175480626"; 
+owner = "13175480626"; 
+fakeyoi = "Chitoge Kirisaki"; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
 hardi = 'hardianto', 
@@ -150,7 +150,7 @@ zeksapi = "vallganz5",
 dapapi = "anakasu",
 ApiZeks = "https://api.zeks.xyz",
 zeksApikey = "Alphabott",
-nomorowner1 = "@916909137213"; 
+nomorowner1 = "@13175480626"; 
 fake = `𝗢𝘄𝗻𝗲𝗿 : ${fakeyoi}\n㋛︎ 𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg"); 
 numbernye = "0"; 
@@ -1621,17 +1621,17 @@ sendButLocation(from, `${menu}`,`𝘽𝙤𝙩 𝘽𝙮 @${dtod.split("@")[0]}`, 
 
 break
 case 'credit':
-   dtod = '916909137213'
-   dtod1 = '916909137213'
-   dtod2 = '919774340154'
+   dtod = 'MPMSTUDIO'
+   dtod1 = 'WhatsappGang'
+   dtod2 = 'MPMTVSERIES'
    dtod3 = ''
    dtod4 ='0'
    var yez = `
    [ 𝐶𝑟𝑒𝑑𝑖𝑡𝑠 𝐵𝑦 ] :
    
- 🌿 : wa.me/${dtod1.split("@")[0]}
- 🌿 : wa.me/${dtod.split('@')[0]}
- 🌿 : wa.me/${dtod2.split('@')[0]}
+ 🌿 : t.me/${dtod1.split("@")[0]}
+ 🌿 : t.me/${dtod.split('@')[0]}
+ 🌿 : t.me/${dtod2.split('@')[0]}
  `
      credit = xeon.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 1000, "message": `${yez}`, "footerText": "hehe", "thumbnail": iye, "surface": 'CATALOG'}}, {quoted: mek})
             xeon.relayWAMessage(credit)
@@ -1674,7 +1674,7 @@ case 'bugreport':
               if (args.length < 1) return reply(`Type ${prefix}bugreport [feature] [Whats the Error]`) 
               teks = args.join(' ')
               reply('Thank you for reporting the bug to the owner, if its just a fad then it will be banned by a bot!')
-              xeon.sendMessage('916909137213@s.whatsapp.net',`*Bug Report:* ${teks}`, text)
+              xeon.sendMessage('13175480626@s.whatsapp.net',`*Bug Report:* ${teks}`, text)
               
               break
 case 'restart':
